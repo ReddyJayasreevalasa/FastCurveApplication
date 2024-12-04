@@ -5,9 +5,232 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  display: flex;
+}
+.line {
+  border: 1px dashed;
+  margin: 5px 10px;
+}
+.grid-compo {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px 10px 0px 20px;
+}
+.input-qty{
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.text {
+  text-decoration: underline;
+}
+.catalog-section{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-image: url("https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.category_container {
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.show-more {
+  text-decoration: underline;
+  color: #004085;
+  cursor: pointer;
+}
+.catalog-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.login_page{
+  margin-top: 8%;
+  margin-left: 30%;
+  display: "flex";
+  justify-content: "center";
+  align-Items: "center";
+  min-Height: "100vh"} 
+
+.letter-hower{
+  right: 10px !important;
+}
+.home-page{
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-image: url("https://img.freepik.com/premium-photo/gradient-powerpoint-background-corporate-presentation_167709-225.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.content{
+  text-align: center;
+}
+.total-class{
+  text-align: right
+}
+.letter-hower{
+  right: 10px !important;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+}
+.dropdown-content button {
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.info{
+  border: 1px solid black;
+}
+.home-name{
+  position: absolute;
+  left: 16px;
+  top: 2%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+}
+.dropdown-content button {
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+@media only screen and (max-width: 600px) {
+  .catalog-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .catalog-container{
+    flex-direction: column;
+  }
+  .profile-container{
+    display: none;
+  }
+  .topnav a{
+    position: relative;
+    float: none;
+  }
+  .topnav img{
+    position: relative;
+    float: none !important;
+  }
+  .left-login{
+    display: none;
+  }
+  .right-login{
+    width: 100% !important;
+    height: 90vh;
+  }
+  
+}
+.profile-container{
+    float: right;
+    top: -55px;
+}
+  
