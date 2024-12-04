@@ -5,7 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+### clone repo
+https://github.com/ReddyJayasreevalasa/FastCurveApplication.git
+### `branch:main` 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
